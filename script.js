@@ -1,5 +1,6 @@
 let body = document.querySelector('body');
 body.style.backgroundColor = '#1f2f3f';
+
 //preparing a container for div squares by flex-box
 let mainDiv = document.querySelector('.main-container');
 mainDiv.style.display = 'flex';
