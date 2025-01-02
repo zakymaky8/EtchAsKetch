@@ -2,11 +2,6 @@ let body = document.querySelector('body');
 
 //preparing a container for div squares by flex-box
 let mainDiv = document.querySelector('.main-container');
-mainDiv.style.display = 'flex';
-mainDiv.style.flexWrap = 'wrap';
-mainDiv.style.border = '10px groove red';
-mainDiv.style.width = '480px';
-mainDiv.style.height = '480px';
 
 //create grid squares as per user prompt
 function generateNewGrid(n) {
